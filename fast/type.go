@@ -22,11 +22,11 @@ import (
 	"go/token"
 	r "reflect"
 
-	"github.com/cosmos72/gomacro/base"
-	"github.com/cosmos72/gomacro/base/reflect"
-	"github.com/cosmos72/gomacro/base/strings"
-	"github.com/cosmos72/gomacro/base/untyped"
-	xr "github.com/cosmos72/gomacro/xreflect"
+	"github.com/muazhari/gomacro-custom/base"
+	"github.com/muazhari/gomacro-custom/base/reflect"
+	"github.com/muazhari/gomacro-custom/base/strings"
+	"github.com/muazhari/gomacro-custom/base/untyped"
+	xr "github.com/muazhari/gomacro-custom/xreflect"
 )
 
 // DeclType compiles a type declaration.

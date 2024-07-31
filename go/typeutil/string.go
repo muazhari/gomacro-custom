@@ -10,7 +10,7 @@ import (
 	"bytes"
 	"fmt"
 
-	"github.com/cosmos72/gomacro/go/types"
+	"github.com/muazhari/gomacro-custom/go/types"
 )
 
 // String returns a string representation of given type,

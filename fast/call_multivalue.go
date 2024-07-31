@@ -17,7 +17,7 @@
 package fast
 
 import (
-	xr "github.com/cosmos72/gomacro/xreflect"
+	xr "github.com/muazhari/gomacro-custom/xreflect"
 )
 
 // call_multivalue compiles foo(bar()) where bar() returns multiple values

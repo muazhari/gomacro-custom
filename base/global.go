@@ -25,14 +25,14 @@ import (
 	r "reflect"
 	"strings"
 
-	. "github.com/cosmos72/gomacro/ast2"
-	"github.com/cosmos72/gomacro/base/genimport"
-	"github.com/cosmos72/gomacro/base/output"
-	"github.com/cosmos72/gomacro/base/reflect"
-	etoken "github.com/cosmos72/gomacro/go/etoken"
-	mp "github.com/cosmos72/gomacro/go/parser"
-	"github.com/cosmos72/gomacro/imports"
-	xr "github.com/cosmos72/gomacro/xreflect"
+	. "github.com/muazhari/gomacro-custom/ast2"
+	"github.com/muazhari/gomacro-custom/base/genimport"
+	"github.com/muazhari/gomacro-custom/base/output"
+	"github.com/muazhari/gomacro-custom/base/reflect"
+	etoken "github.com/muazhari/gomacro-custom/go/etoken"
+	mp "github.com/muazhari/gomacro-custom/go/parser"
+	"github.com/muazhari/gomacro-custom/imports"
+	xr "github.com/muazhari/gomacro-custom/xreflect"
 )
 
 type Output = output.Output

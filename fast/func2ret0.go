@@ -25,9 +25,9 @@ import (
 	r "reflect"
 	"unsafe"
 
-	"github.com/cosmos72/gomacro/base"
-	"github.com/cosmos72/gomacro/base/reflect"
-	xr "github.com/cosmos72/gomacro/xreflect"
+	"github.com/muazhari/gomacro-custom/base"
+	"github.com/muazhari/gomacro-custom/base/reflect"
+	xr "github.com/muazhari/gomacro-custom/xreflect"
 )
 
 func (c *Comp) func2ret0(t xr.Type, m *funcMaker) func(*Env) xr.Value {

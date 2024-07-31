@@ -21,10 +21,10 @@ import (
 	"go/ast"
 	r "reflect"
 
-	"github.com/cosmos72/gomacro/go/etoken"
+	"github.com/muazhari/gomacro-custom/go/etoken"
 
-	"github.com/cosmos72/gomacro/go/types"
-	"github.com/cosmos72/gomacro/go/typeutil"
+	"github.com/muazhari/gomacro-custom/go/types"
+	"github.com/muazhari/gomacro-custom/go/typeutil"
 )
 
 // return detailed string representation of a method signature, including its receiver if present
@@ -68,9 +68,10 @@ func (t *xtype) NumExplicitMethod() int {
 // NumAllMethod returns the *total* number of methods for interface or named type t,
 // including wrapper methods for embedded fields or embedded interfaces.
 // Note: it has slightly different semantics from go/types.(*Named).NumMethods(),
-//       since the latter returns 0 for named interfaces, and callers need to manually invoke
-//       goNamedType.Underlying().NumMethods() to retrieve the number of methods
-//       of a named interface
+//
+//	since the latter returns 0 for named interfaces, and callers need to manually invoke
+//	goNamedType.Underlying().NumMethods() to retrieve the number of methods
+//	of a named interface
 func (t *xtype) NumAllMethod() int {
 	return goTypeNumAllMethod(t.gtype, make(map[types.Type]struct{}))
 }

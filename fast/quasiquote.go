@@ -22,13 +22,13 @@ import (
 	"go/token"
 	r "reflect"
 
-	. "github.com/cosmos72/gomacro/ast2"
-	"github.com/cosmos72/gomacro/base"
-	"github.com/cosmos72/gomacro/base/output"
-	"github.com/cosmos72/gomacro/base/reflect"
-	etoken "github.com/cosmos72/gomacro/go/etoken"
-	mp "github.com/cosmos72/gomacro/go/parser"
-	xr "github.com/cosmos72/gomacro/xreflect"
+	. "github.com/muazhari/gomacro-custom/ast2"
+	"github.com/muazhari/gomacro-custom/base"
+	"github.com/muazhari/gomacro-custom/base/output"
+	"github.com/muazhari/gomacro-custom/base/reflect"
+	etoken "github.com/muazhari/gomacro-custom/go/etoken"
+	mp "github.com/muazhari/gomacro-custom/go/parser"
+	xr "github.com/muazhari/gomacro-custom/xreflect"
 )
 
 var (

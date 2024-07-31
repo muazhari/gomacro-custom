@@ -24,8 +24,8 @@ import (
 	"reflect"
 	"strings"
 
-	"github.com/cosmos72/gomacro/imports"
-	"github.com/cosmos72/gomacro/imports/util"
+	"github.com/muazhari/gomacro-custom/imports"
+	"github.com/muazhari/gomacro-custom/imports/util"
 )
 
 // return the string after last '/' in path

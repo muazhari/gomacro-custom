@@ -20,7 +20,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/cosmos72/gomacro/imports/util"
+	"github.com/muazhari/gomacro-custom/imports/util"
 )
 
 func UnescapeChar(str string) (rune, error) {

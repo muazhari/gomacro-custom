@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/cosmos72/gomacro/fast"
+	"github.com/muazhari/gomacro-custom/fast"
 )
 
 func main() {

@@ -22,8 +22,8 @@ import (
 	"go/token"
 	r "reflect"
 
-	. "github.com/cosmos72/gomacro/base"
-	"github.com/cosmos72/gomacro/base/reflect"
+	. "github.com/muazhari/gomacro-custom/base"
+	"github.com/muazhari/gomacro-custom/base/reflect"
 )
 
 func (env *Env) evalDecl(node ast.Decl) (r.Value, []r.Value) {

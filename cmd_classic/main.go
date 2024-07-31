@@ -17,8 +17,8 @@
 package main
 
 import (
-	. "github.com/cosmos72/gomacro/base"
-	"github.com/cosmos72/gomacro/classic"
+	. "github.com/muazhari/gomacro-custom/base"
+	"github.com/muazhari/gomacro-custom/classic"
 )
 
 func main() {

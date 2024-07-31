@@ -21,7 +21,7 @@ import (
 	"go/ast"
 	"os"
 
-	. "github.com/cosmos72/gomacro/base"
+	. "github.com/muazhari/gomacro-custom/base"
 )
 
 func (ir *Interp) EvalFile(filePath string) {

@@ -23,9 +23,9 @@ import (
 	"sort"
 	"unsafe"
 
-	"github.com/cosmos72/gomacro/go/types"
-	"github.com/cosmos72/gomacro/go/typeutil"
-	xr "github.com/cosmos72/gomacro/xreflect"
+	"github.com/muazhari/gomacro-custom/go/types"
+	"github.com/muazhari/gomacro-custom/go/typeutil"
+	xr "github.com/muazhari/gomacro-custom/xreflect"
 )
 
 type typecaseEntry struct {

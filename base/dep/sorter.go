@@ -20,7 +20,7 @@ import (
 	"go/ast"
 	"go/token"
 
-	"github.com/cosmos72/gomacro/ast2"
+	"github.com/muazhari/gomacro-custom/ast2"
 )
 
 func (s *Sorter) LoadNode(node ast.Node) {

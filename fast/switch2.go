@@ -22,7 +22,7 @@
 package fast
 
 import (
-	xr "github.com/cosmos72/gomacro/xreflect"
+	xr "github.com/muazhari/gomacro-custom/xreflect"
 )
 
 func (c *Comp) switchGotoMap(tag *Expr, seen *caseHelper, ip int) {

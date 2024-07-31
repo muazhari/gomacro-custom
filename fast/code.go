@@ -19,7 +19,7 @@ package fast
 import (
 	"go/token"
 
-	"github.com/cosmos72/gomacro/base"
+	"github.com/muazhari/gomacro-custom/base"
 )
 
 func (code *Code) Clear() {

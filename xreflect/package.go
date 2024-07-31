@@ -19,7 +19,7 @@ package xreflect
 import (
 	"strings"
 
-	"github.com/cosmos72/gomacro/go/types"
+	"github.com/muazhari/gomacro-custom/go/types"
 )
 
 func (v *Universe) loadPackage(path string) *Package {

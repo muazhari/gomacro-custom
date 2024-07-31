@@ -1,4 +1,4 @@
-module github.com/cosmos72/gomacro
+module github.com/muazhari/gomacro-custom
 
 go 1.18
 

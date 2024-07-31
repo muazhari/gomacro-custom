@@ -20,8 +20,8 @@ import (
 	"go/token"
 	"runtime/debug"
 
-	"github.com/cosmos72/gomacro/base"
-	"github.com/cosmos72/gomacro/xreflect"
+	"github.com/muazhari/gomacro-custom/base"
+	"github.com/muazhari/gomacro-custom/xreflect"
 )
 
 func (d *Debugger) Help() {

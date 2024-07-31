@@ -20,9 +20,9 @@ import (
 	"go/ast"
 	r "reflect"
 
-	"github.com/cosmos72/gomacro/base/reflect"
+	"github.com/muazhari/gomacro-custom/base/reflect"
 
-	xr "github.com/cosmos72/gomacro/xreflect"
+	xr "github.com/muazhari/gomacro-custom/xreflect"
 )
 
 // Convert compiles a type conversion expression

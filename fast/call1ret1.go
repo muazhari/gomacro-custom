@@ -22,8 +22,8 @@
 package fast
 
 import (
-	"github.com/cosmos72/gomacro/base/reflect"
-	xr "github.com/cosmos72/gomacro/xreflect"
+	"github.com/muazhari/gomacro-custom/base/reflect"
+	xr "github.com/muazhari/gomacro-custom/xreflect"
 )
 
 func (c *Comp) call1ret1(call *Call, maxdepth int) I {

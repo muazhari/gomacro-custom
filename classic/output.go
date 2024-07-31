@@ -23,11 +23,11 @@ import (
 	r "reflect"
 	"sort"
 
-	. "github.com/cosmos72/gomacro/base"
-	"github.com/cosmos72/gomacro/base/genimport"
-	"github.com/cosmos72/gomacro/base/output"
-	"github.com/cosmos72/gomacro/base/reflect"
-	"github.com/cosmos72/gomacro/imports"
+	. "github.com/muazhari/gomacro-custom/base"
+	"github.com/muazhari/gomacro-custom/base/genimport"
+	"github.com/muazhari/gomacro-custom/base/output"
+	"github.com/muazhari/gomacro-custom/base/reflect"
+	"github.com/muazhari/gomacro-custom/imports"
 )
 
 var (

@@ -26,11 +26,11 @@ import (
 	"strings"
 	"unsafe"
 
-	. "github.com/cosmos72/gomacro/ast2"
-	"github.com/cosmos72/gomacro/base/paths"
-	"github.com/cosmos72/gomacro/base/reflect"
-	etoken "github.com/cosmos72/gomacro/go/etoken"
-	"github.com/cosmos72/gomacro/go/printer"
+	. "github.com/muazhari/gomacro-custom/ast2"
+	"github.com/muazhari/gomacro-custom/base/paths"
+	"github.com/muazhari/gomacro-custom/base/reflect"
+	etoken "github.com/muazhari/gomacro-custom/go/etoken"
+	"github.com/muazhari/gomacro-custom/go/printer"
 )
 
 type Stringer struct {

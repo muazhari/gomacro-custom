@@ -21,10 +21,10 @@ import (
 	"go/token"
 	r "reflect"
 
-	. "github.com/cosmos72/gomacro/base"
-	"github.com/cosmos72/gomacro/base/genimport"
-	"github.com/cosmos72/gomacro/base/reflect"
-	etoken "github.com/cosmos72/gomacro/go/etoken"
+	. "github.com/muazhari/gomacro-custom/base"
+	"github.com/muazhari/gomacro-custom/base/genimport"
+	"github.com/muazhari/gomacro-custom/base/reflect"
+	etoken "github.com/muazhari/gomacro-custom/go/etoken"
 )
 
 func (env *Env) evalExprsMultipleValues(nodes []ast.Expr, expectedValuesN int) []r.Value {

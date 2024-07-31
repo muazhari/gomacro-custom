@@ -20,8 +20,8 @@ import (
 	"go/ast"
 	r "reflect"
 
-	"github.com/cosmos72/gomacro/base/untyped"
-	xr "github.com/cosmos72/gomacro/xreflect"
+	"github.com/muazhari/gomacro-custom/base/untyped"
+	xr "github.com/muazhari/gomacro-custom/xreflect"
 )
 
 func (c *Comp) CompositeLit(node *ast.CompositeLit, t xr.Type) *Expr {

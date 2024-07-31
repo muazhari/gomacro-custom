@@ -22,9 +22,9 @@ import (
 	"io/ioutil"
 	r "reflect"
 
-	. "github.com/cosmos72/gomacro/ast2"
-	. "github.com/cosmos72/gomacro/base"
-	"github.com/cosmos72/gomacro/base/reflect"
+	. "github.com/muazhari/gomacro-custom/ast2"
+	. "github.com/muazhari/gomacro-custom/base"
+	"github.com/muazhari/gomacro-custom/base/reflect"
 )
 
 func funcAppend(env *Env, args []r.Value) (r.Value, []r.Value) {

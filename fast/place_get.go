@@ -17,7 +17,7 @@
 package fast
 
 import (
-	xr "github.com/cosmos72/gomacro/xreflect"
+	xr "github.com/muazhari/gomacro-custom/xreflect"
 )
 
 // compile a read operation on a place

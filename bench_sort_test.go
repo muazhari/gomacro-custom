@@ -21,8 +21,8 @@ import (
 	"sort"
 	"testing"
 
-	"github.com/cosmos72/gomacro/classic"
-	"github.com/cosmos72/gomacro/fast"
+	"github.com/muazhari/gomacro-custom/classic"
+	"github.com/muazhari/gomacro-custom/fast"
 )
 
 var verbosesort = verbose

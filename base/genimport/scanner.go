@@ -23,7 +23,7 @@ import (
 	r "reflect"
 	"sort"
 
-	"github.com/cosmos72/gomacro/base/output"
+	"github.com/muazhari/gomacro-custom/base/output"
 )
 
 type TypeVisitor func(t types.Type) bool

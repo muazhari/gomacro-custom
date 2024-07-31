@@ -21,7 +21,7 @@ import (
 	"go/token"
 	r "reflect"
 
-	. "github.com/cosmos72/gomacro/base"
+	. "github.com/muazhari/gomacro-custom/base"
 )
 
 func (env *Env) evalFor(node *ast.ForStmt) (r.Value, []r.Value) {
